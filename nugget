@@ -13,10 +13,10 @@ local antiAFKConnection
 
 
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lkjhg969/ffdsf/refs/heads/main/hgfhj", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxuryPCVersion/v2ui//main/uisul", true))()
 
-local window = library:AddWindow("Silence | Main", {
-    main_color = Color3.fromRGB(138, 0, 0),
+local window = library:AddWindow("Phantom | Main", {
+    main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(600, 630),
     can_resize = false,
 })
@@ -83,9 +83,9 @@ local StatsTab = window:AddTab("Stats")
 local infoTab = window:AddTab("Info")
 KillingTab:Show()
 
-infoTab:AddLabel("Made by Henne ♥️").TextSize = 20
+infoTab:AddLabel("LMAO").TextSize = 20
 infoTab:AddLabel("Official Discord: discord.gg/silencev1")
-infoTab:AddButton("Copy Discord Invite", function()
+infoTab:AddButton("Copy silence shit discord inv", function()
     local link = "https://discord.gg/9eFf93Kg8D"
     if setclipboard then
         setclipboard(link)
@@ -104,7 +104,7 @@ infoTab:AddButton("Copy Discord Invite", function()
 end)
 
 infoTab:AddLabel("")
-local wLabel = infoTab:AddLabel("VERSION//2.0.0")
+local wLabel = infoTab:AddLabel("FUCK SKIDDERS")
 wLabel.TextSize = 30
 wLabel.Font = Enum.Font.Arcade
 
