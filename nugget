@@ -16,7 +16,7 @@ local antiAFKConnection
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxuryPCVersion/v2ui//main/uisul", true))() 
 
 local window = library:AddWindow("Phantom | Main", {
-    main_color = Color3.fromRGB(249, 115, 22),
+    main_color = Color3.fromRGB(99, 102, 241),
     min_size = Vector2.new(750, 630),
     can_resize = false,
 })
