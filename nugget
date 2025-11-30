@@ -16,7 +16,7 @@ local antiAFKConnection
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zrblackout/uisolix//main/solix", true))() 
 
 local window = library:AddWindow("Solix | Main", {
-    main_color = Color3.fromRGB(148, 0, 211),
+    main_color = Color3.fromRGB(192, 192, 192),
     min_size = Vector2.new(600, 630),
     can_resize = false,
 })
